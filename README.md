@@ -1,6 +1,6 @@
 # TODO
 
-⬜️ Twitter Profile Animation
+✅ Twitter Profile Animation
 
 ⬜️ Bottom sheet with `react-native-gesture-handler`
 
