@@ -3,13 +3,22 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { RootStackParamList } from "./navigatorTypes";
 import { MainScreen, TwitterProfileScreen } from "../screens";
 
-const Stack = createNativeStackNavigator<RootStackParamList>();
+const { Navigator, Screen } = createNativeStackNavigator<RootStackParamList>();
 
 export const MainNavigator = () => {
   return (
-    <Stack.Navigator>
-      <Stack.Screen name={"Main"} component={MainScreen} />
-      <Stack.Screen name={"TwitterProfile"} component={TwitterProfileScreen} />
-    </Stack.Navigator>
+    <Navigator>
+      <Screen name={"Main"} component={MainScreen} />
+      <Screen
+        options={{
+          headerTransparent: true,
+          title: "",
+          headerBackTitle: "",
+          headerTintColor: "#fff",
+        }}
+        name={"TwitterProfile"}
+        component={TwitterProfileScreen}
+      />
+    </Navigator>
   );
 };
