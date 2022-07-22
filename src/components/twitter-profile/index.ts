@@ -1,2 +1,2 @@
-export { default as HeaderBg } from "./HeaderBg";
-export { default as ListHeader } from "./ListHeader";
+export { default as HeaderBg } from "./header-bg";
+export { default as ListHeader } from "./list-header";

@@ -1,2 +1,2 @@
-export * from "./MainNavigators";
-export * from "./navigatorTypes";
+export * from "./app-navigators";
+export * from "./navigator-types";
