@@ -4,4 +4,4 @@
 
 ✅ Bottom sheet with `react-native-gesture-handler`
 
-⬜️ Drag and drop
+✅ Drag and drop
