@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { RootStackParamList } from "./navigator-types";
 import {
   BottomSheetScreen,
+  DragDropScreen,
   MainScreen,
   TwitterProfileScreen,
 } from "../screens";
@@ -30,13 +31,18 @@ export const AppNavigators = () => {
           headerTransparent: true,
         }}
       />
-
       <Screen
         name={"BottomSheet"}
         component={BottomSheetScreen}
         options={{
           title: "Bottom Sheet",
-          headerShown: false,
+        }}
+      />
+      <Screen
+        name={"DragDrop"}
+        component={DragDropScreen}
+        options={{
+          title: "Drag Drop",
         }}
       />
     </Navigator>

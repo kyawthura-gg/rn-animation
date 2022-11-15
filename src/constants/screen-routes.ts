@@ -9,6 +9,10 @@ export const SCREEN_LISTS = [
     name: "BottomSheet",
     label: "Bottom Sheet",
   },
+  {
+    name: "DragDrop",
+    label: "Drag Drop",
+  },
 ] as {
   name: keyof RootStackParamList;
   label: string;

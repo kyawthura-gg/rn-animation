@@ -4,6 +4,7 @@ export type RootStackParamList = {
   Main: undefined;
   TwitterProfile: undefined;
   BottomSheet: undefined;
+  DragDrop: undefined;
 };
 
 export type RootStackScreenProps<T extends keyof RootStackParamList> =
